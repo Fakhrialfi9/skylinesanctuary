@@ -1,0 +1,339 @@
+.HeaderSection {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  max-width: 100vw;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  place-items: center;
+  margin: 6.5rem auto;
+  padding: 0;
+  z-index: 999 !important;
+}
+
+.MainHeader {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  height: auto;
+  max-height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 999 !important;
+}
+
+.HeaderContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 80%;
+  height: auto;
+  max-height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.HeaderContent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  height: auto;
+  max-height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.HeaderContentImage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  height: 35rem;
+  max-height: 35rem;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3rem;
+  background-color: var(--PrimaryColor);
+  box-shadow: 0px 0px 31px 1px rgba(0, 0, 0, 0.11);
+  -webkit-box-shadow: 0px 0px 31px 1px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 0px 0px 31px 1px rgba(0, 0, 0, 0.11);
+}
+
+.HeaderContentImage img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: inherit;
+}
+
+.HeaderContentOpacity {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  height: 35rem;
+  max-height: 35rem;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  border-radius: inherit;
+  background: linear-gradient(to right, var(--BlackColor), var(--LightColor));
+  mix-blend-mode: hard-light;
+  opacity: 0.5;
+}
+
+.HeaderContentHeadline {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(10%, 35%);
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  max-width: 50%;
+  height: auto;
+  max-height: auto;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.HeaderContentHeadline h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  color: var(--LightColor);
+}
+
+.HeaderContentHeadline p {
+  font-size: 0.85rem;
+  width: 75%;
+  max-width: 75%;
+  height: auto;
+  max-height: auto;
+  margin: 1.5rem 0 0 0 !important;
+  color: var(--LightColor);
+}
+
+/* Start From Select */
+.HeaderContentFormSelect {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translate(10%, 30%);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: auto;
+  max-width: auto;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.HeaderContentFormSelectContainer {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  max-width: auto;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.HeaderContentFormSelectContent {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  max-width: auto;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.HeaderContentFormSelectCard {
+  display: flex;
+  flex-direction: column;
+  width: 45rem;
+  max-width: 45rem;
+  height: auto;
+  max-height: auto;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: 0 auto;
+  padding: 0;
+  background-color: transparent;
+}
+
+.HeaderContentFormSelectCardTop {
+  display: flex;
+  flex-direction: row;
+  width: 25rem;
+  max-width: 25rem;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 1rem 0;
+  border-radius: 1rem 1rem 0 0;
+  background-color: var(--LightColor);
+}
+
+.HeaderContentFormSelectCardTopMenu {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.HeaderContentFormSelectCardTopItem {
+  margin: 0 auto;
+}
+
+.HeaderContentFormSelectCardTopLink {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  color: var(--DarkColor);
+  padding: 0.25rem 1.5rem;
+  z-index: 1;
+  overflow: hidden;
+  transition: color 0.3s ease;
+}
+
+.HeaderContentFormSelectCardTopLink::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 0;
+  height: 100%;
+  max-height: 100%;
+  background-color: var(--PrimaryColor);
+  border-radius: 1rem;
+  opacity: 0;
+  mix-blend-mode: multiply;
+  transition: max-width 0.3s ease, opacity 0.3s ease;
+  z-index: -1;
+}
+
+.HeaderContentFormSelectCardTopLink:hover {
+  color: var(--LightColor) !important;
+}
+
+.HeaderContentFormSelectCardTopLink:hover::before {
+  max-width: 100%;
+  opacity: 1;
+  mix-blend-mode: normal;
+}
+
+.HeaderContentFormSelectCardBottom {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 1.85rem 0;
+  border-radius: 0 1rem 1rem 1rem;
+  background-color: var(--LightColor);
+  border: 1px solid var(--DarkLightColor);
+  box-shadow: 0px 0px 31px 1px rgba(0, 0, 0, 0.11);
+  -webkit-box-shadow: 0px 0px 31px 1px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 0px 0px 31px 1px rgba(0, 0, 0, 0.11);
+}
+
+.HeaderContentFormSelectCardBottomFilter {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  max-width: auto;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+
+.HeaderContentFormSelectCardBottomFilter span {
+  font-size: 0.95rem;
+  margin: 0 0.55rem;
+  color: var(--GrayColor);
+}
+
+.HeaderContentFormSelectCardBottomFilter h4 {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--DarkColor);
+  justify-content: center;
+  align-items: center;
+}
+
+.HeaderContentFormSelectCardBottomFilter h4:hover {
+  color: var(--PrimaryColor);
+}
+
+.HeaderContentFormSelectCardBottomFilter a {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--GrayColor);
+}
+
+.HeaderContentFormSelectCardBottomFilter a:hover {
+  color: var(--GrayColor) !important;
+}
+
+.HeaderContentFormSelectCardBottomFilter button {
+  padding: 0.5rem 1.5rem;
+}
+
+.HeaderContentFormSelectCardBottomFilter b {
+  margin-right: 0.85rem;
+}
+/* End From Select */

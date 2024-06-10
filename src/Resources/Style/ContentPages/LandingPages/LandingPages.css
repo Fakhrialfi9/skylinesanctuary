@@ -1,0 +1,1197 @@
+.LandingPagesSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  place-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.MainLandingPages {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  place-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.MainLandingPagesContainer {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 80%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  place-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.MainLandingPagesContent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  place-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/*  Start Client Landing Pages */
+.ClientSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  place-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.ClientSectionContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.ClientSectionContent {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.ClientSectionCardContent {
+  display: flex;
+  flex-direction: column;
+  width: 8.5rem;
+  max-width: 8.5rem;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  place-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.ClientSectionCardContent img {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  filter: grayscale(100%);
+  transition: all 0.35s ease-in-out;
+}
+
+.ClientSectionCardContent img:hover {
+  filter: none;
+  cursor: pointer;
+}
+/*  End Client Landing Pages */
+
+/* Start About Us Landing Pages */
+.AboutUsSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  place-items: center;
+  margin: 3rem auto;
+  padding: 0;
+}
+
+.MainAboutUs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.MainAboutUsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.MainAboutUsContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.MainAboutUsContentLeft {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  max-width: 45%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.MainAboutUsCardContentLeft {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: 20rem;
+  max-height: 20rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0 auto;
+  border-radius: 1.5rem;
+  background-color: var(--PrimaryColor);
+}
+
+.MainAboutUsCardContentLeftOpacity {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: 20rem;
+  max-height: 20rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0 auto;
+  border-radius: inherit;
+  background-color: var(--LightColor);
+  mix-blend-mode: soft-light;
+  opacity: 0.8;
+}
+
+.MainAboutUsCardContentLeftVideoPlay {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 4rem;
+  max-width: 4rem;
+  height: 4rem;
+  max-height: 4rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0 auto;
+  border-radius: 100%;
+  background-color: var(--PrimaryColor);
+  transition: all 0.25s ease-in-out;
+}
+
+.MainAboutUsCardContentLeftVideoPlay:hover {
+  animation: PulseEffect 1s infinite;
+  box-shadow: 0px 0px 37px 20px rgba(0, 0, 0, 0.11);
+  -webkit-box-shadow: 0px 0px 37px 20px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 0px 0px 37px 20px rgba(0, 0, 0, 0.11);
+}
+
+@keyframes PulseEffect {
+  0% {
+    box-shadow: 0 0 0 0 #fff;
+  }
+  100% {
+    box-shadow: 0 0 0 15px rgba(255, 255, 255, 0);
+  }
+}
+
+.MainAboutUsCardContentLeftVideoPlay a {
+  color: var(--LightColor);
+  font-size: 1.5rem;
+}
+
+.MainAboutUsCardContentLeft img {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+  border-radius: inherit;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.MainAboutUsContentRight {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50%;
+  max-width: 50%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.MainAboutUsContentRight h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--DarkColor);
+}
+
+.MainAboutUsContentRight p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--GrayColor);
+  margin: 1.5rem 0 !important;
+}
+
+.MainAboutUsContentRightCountNumber {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.MainAboutUsContentRightCountNumber span {
+  margin: 0 2.5rem 0 0;
+}
+
+.MainAboutUsContentRightCountNumber h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--PrimaryColor);
+}
+
+.MainAboutUsContentRightCountNumber p {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--GrayColor);
+  margin: 0 !important;
+}
+/* End About Us Landing Pages */
+
+/* Start Card Feature */
+.CardFeatureSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  place-items: center;
+  margin: 3rem auto;
+  padding: 0;
+}
+
+.MainCardFeature {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.MainCardFeatureContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.MainCardFeatureContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.CardFeature {
+  display: flex;
+  flex-direction: column;
+  width: 27rem;
+  max-width: 27rem;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 1.5rem 0;
+  border-radius: 1rem;
+  background-color: var(--LightColor);
+  border: 1px solid var(--DarkLightColor);
+}
+
+.IconHeadlineCardFeature {
+  display: flex;
+  flex-direction: column;
+  width: 5.5rem;
+  max-width: 5.5rem;
+  height: 5.5rem;
+  max-height: 5.5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0 auto;
+  border-radius: 100%;
+  background-color: var(--PrimaryColor);
+  transition: all 0.45s ease-in-out;
+}
+
+.IconHeadlineCardFeature:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.HeadlineCardFeature {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 80%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 1.5rem 0 0 0 !important;
+}
+
+.HeadlineCardFeature h2 {
+  font-size: 1.5rem;
+  color: var(--DarkColor);
+  font-weight: 700;
+}
+
+.HeadlineCardFeature p {
+  font-size: 0.85rem;
+  color: var(--GrayColor);
+  font-weight: 400;
+  text-align: justify;
+  text-align-last: center;
+  margin: 0.85rem 0 0 0 !important;
+}
+
+.ButtonActionCardFeature {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  max-width: 80%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 1.5rem 0 0 0 !important;
+}
+
+.ButtonActionCardFeature button {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  max-width: 50%;
+  height: auto;
+  max-height: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10rem !important;
+  transition: all 0.45s ease-in-out;
+}
+
+.ButtonActionCardFeature button:hover {
+  width: 100%;
+  max-width: 100%;
+}
+/* End Card Feature */
+
+/* Start Card Product Property */
+
+.CardProductPropertySection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  place-items: center;
+  margin: 3rem auto;
+  padding: 0;
+}
+
+.MainCardProductProperty {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.MainCardProductPropertyContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.MainCardProductPropertyContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  place-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.MainCardProductPropertyContentTop {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.MainCardProductPropertyContentTopLeft {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 40%;
+  max-width: 40%;
+  height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.MainCardProductPropertyContentTopLeft h2 {
+  font-size: 2rem;
+  color: var(--DarkColor);
+  font-weight: 700;
+}
+
+.MainCardProductPropertyContentTopLeft p {
+  font-size: 0.75rem;
+  color: var(--GrayColor);
+  font-weight: 400;
+  margin: 0.85rem 0 0 0 !important;
+}
+
+.MainCardProductPropertyContentTopRight {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 60%;
+  max-width: 60%;
+  height: auto;
+  max-height: auto;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.MainCardProductPropertyContentTopRight button {
+  margin: 0 0 0 1.5rem;
+}
+
+.MainCardProductPropertyContentBottom {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 2.5rem 0 0 0;
+  padding: 0;
+}
+
+.CardProductPropertyContentBottom {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 20rem;
+  max-height: 20rem;
+  height: 100%;
+  max-height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.55rem 0;
+  padding: 0;
+  border-radius: 1rem;
+  border: 1px solid var(--DarkLightColor);
+  transition: all 0.35s ease-in-out;
+}
+
+.CardProductPropertyContentBottom:hover {
+  transform: scale(1.015);
+  cursor: pointer;
+  box-shadow: 0px 0px 37px 20px rgba(0, 0, 0, 0.11);
+  -webkit-box-shadow: 0px 0px 37px 20px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 0px 0px 37px 20px rgba(0, 0, 0, 0.11);
+}
+
+.CardProductPropertyContentBottomImage {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: 18rem;
+  max-height: 18rem;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  background-color: var(--LightColor);
+}
+
+.CardProductPropertyContentBottomImage img {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: 18rem;
+  max-height: 18rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.CardProductPropertyContentBottomHeadline {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  max-width: 90%;
+  height: auto;
+  max-height: auto;
+  margin: 1rem 0 0 0;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CardProductPropertyContentBottomHeadlineLeft {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  max-width: 70%;
+  height: auto;
+  max-height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.CardProductPropertyContentBottomHeadlineLeft h5 {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.CardProductPropertyContentBottomHeadlineRight {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  max-width: 30%;
+  height: auto;
+  max-height: auto;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.CardProductPropertyContentBottomHeadlineRight h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--PrimaryColor);
+}
+
+.CardProductPropertyContentBottomLocation {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  max-width: 90%;
+  height: auto;
+  max-height: auto;
+  margin: 1.25rem auto;
+  padding: 0;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.CardProductPropertyContentBottomLocation span {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.CardProductPropertyContentBottomLocation b {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--GrayColor);
+}
+
+.CardProductPropertyContentBottomLocation h5 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--GrayColor);
+  margin: 0 0.45rem !important;
+}
+
+.CardProductPropertyContentBottomSpecification {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  max-width: 90%;
+  height: auto;
+  max-height: auto;
+  margin: 0 0 0.85rem 0;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CardProductPropertyContentBottomSpecification span {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.CardProductPropertyContentBottomSpecification b {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: var(--PrimaryColor);
+}
+
+.CardProductPropertyContentBottomSpecification h5 {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: var(--PrimaryColor);
+  margin: 0 0 0 0.35rem !important;
+}
+
+.CardProductPropertyContentBottomButtonAction {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  max-width: 90%;
+  height: auto;
+  max-height: auto;
+  margin: 0 0 0.85rem 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.CardProductPropertyContentBottomButtonAction span {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.CardProductPropertyContentBottomButtonAction button {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+/* End Card Product Property */
+
+/* End Testimonial Property */
+
+.TestimonialSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  place-content: center;
+  place-items: center;
+  margin: 1.5rem auto;
+  padding: 0;
+}
+
+.MainTestimonial {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.MainTestimonialContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.ContentHeadlineTestimonial {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.ContentHeadlineTestimonial span {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  max-width: 50%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.ContentHeadlineTestimonial h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--DarkColor);
+}
+
+.ContentHeadlineTestimonial p {
+  font-size: 0.75rem;
+  color: var(--GrayColor);
+  font-weight: 400;
+  margin: 0.85rem 0 0 0 !important;
+}
+
+.MainTestimonialContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3.5rem 0 2rem 0;
+  padding: 0;
+}
+
+.MainTestimonialCardContent {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  max-width: 20rem;
+  height: 100%;
+  max-height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 1.8rem 1.8rem;
+  border-radius: 1rem;
+  background-color: var(--LightColor);
+  border: 1px solid var(--DarkLightColor);
+  transition: all 0.35s ease-in-out;
+}
+
+.MainTestimonialCardContent:hover {
+  cursor: pointer;
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 37px -10px rgba(0, 0, 0, 0.11);
+  -webkit-box-shadow: 0px 0px 37px -10px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 0px 0px 37px -10px rgba(0, 0, 0, 0.11);
+}
+
+.MainTestimonialCardContentTop {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.MainTestimonialCardContentTopLeft {
+  display: flex;
+  flex-direction: row;
+  width: 25%;
+  max-width: 25%;
+  height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.MainTestimonialCardContentTopLeftAvatar {
+  display: flex;
+  flex-direction: column;
+  width: 4rem;
+  max-width: 4rem;
+  height: 4rem;
+  max-height: 4rem;
+  border-radius: 100%;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--PrimaryColor);
+}
+
+.MainTestimonialCardContentTopRight {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  max-width: 75%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.MainTestimonialCardContentTopRightHeadline {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.MainTestimonialCardContentTopRightHeadline span {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  margin: 0 auto !important;
+  padding: 0;
+}
+
+.MainTestimonialCardContentTopRightHeadline h4 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--DarkColor);
+}
+
+.MainTestimonialCardContentTopRightHeadline p {
+  font-size: 0.75rem;
+  color: var(--GrayColor);
+  font-weight: 400;
+}
+
+.MainTestimonialCardContentCenter {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+  padding: 0;
+}
+
+.MainTestimonialCardContentCenter span {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  text-align-last: left;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.MainTestimonialCardContentCenter p {
+  font-size: 0.75rem;
+  color: var(--GrayColor);
+  font-weight: 400;
+}
+
+.MainTestimonialCardContentBottom {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.MainTestimonialCardContentBottomRatting {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.MainTestimonialCardContentBottomRatting span {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  max-height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.MainTestimonialCardContentBottomRatting b {
+  margin: 0 0.5rem 0 0;
+  color: gold;
+  transition: all 0.1s ease-in-out;
+}
+
+.MainTestimonialCardContentBottomRatting b:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+.RattingInput {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.RattingLabel {
+  margin: 0 0.5rem 0 0;
+}
+
+.RattingIcon {
+  transition: all 0.3s ease;
+}
+
+.RattingIcon:hover {
+  transform: scale(1.35);
+  cursor: pointer;
+}
+
+.RattingIcon.Active {
+  color: gold;
+}
+
+.RattingIcon.Disable {
+  opacity: 0.1;
+  filter: grayscale(100%);
+}
+
+/* End Testimonial Property */
