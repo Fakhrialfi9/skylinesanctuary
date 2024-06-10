@@ -12,7 +12,7 @@ function MainRouter() {
   return (
     <main id="MainRouterSection">
       <section className="MainRouterSection">
-        <Suspense fallback={<div>Loading...</div>}></Suspense>
+        <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route path="/" Component={Navbar} />
           <Route path="/skylinesanctuary" Component={Navbar} />
@@ -34,6 +34,7 @@ function MainRouter() {
           <Route path="skylinesanctuary/" Component={Footer} />
         </Routes>
       </section>
+     </Suspense>
     </main>
   );
 }
